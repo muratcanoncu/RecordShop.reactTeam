@@ -123,10 +123,12 @@ a:hover {
   bottom: 20%;
 }
 .thumbnailText:hover {
-  color: #ff7700 !important;
+  color: white !important;
   transition: 0.3s;
 }
 .thumbNailCard:hover {
+  background: #ff7700;
+  color: white;
   border: 1px solid #333;
   border-radius: 7px;
   box-shadow: 4px 4px 3px #333;
