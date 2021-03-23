@@ -1,6 +1,6 @@
-import { useContext, /* useState */ } from "react";
-import { NavLink, /* Switch  */} from "react-router-dom";
-import { Navbar, Nav, NavDropdown, /* Button */ } from "react-bootstrap";
+import { useContext /* useState */ } from "react";
+import { NavLink /* Switch  */ } from "react-router-dom";
+import { Navbar, Nav, NavDropdown /* Button */ } from "react-bootstrap";
 import UserContext from "../../ContextFolder/Context";
 
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
