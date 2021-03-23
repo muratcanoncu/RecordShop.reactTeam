@@ -1,5 +1,5 @@
 import { useState, useContext } from "react";
-import { Button, Modal, Form } from "react-bootstrap";
+import { Button, Modal, /* Form */ } from "react-bootstrap";
 import UserContext from "../../ContextFolder/Context";
 
 import Newsletter from "./Newsletter";

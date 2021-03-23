@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 
 function Player(props) {
   const audioElement = useRef(null);
-  const [isPlaying, setisPlaying] = useState(false);
+  const [isPlaying, /* setisPlaying */] = useState(false);
 
   useEffect(() => {
     if (isPlaying) {
