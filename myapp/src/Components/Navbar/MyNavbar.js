@@ -21,7 +21,10 @@ function MyNavbar() {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" variant="dark">
-        <Navbar.Brand href="/" className="d-flex align-items-center ml-3">
+        <Navbar.Brand
+          href="/RecordShop.reactTeam"
+          className="d-flex align-items-center ml-3"
+        >
           <i
             className="fas fa-record-vinyl mr-3"
             style={{ fontSize: "3rem", color: "#353839" }}
@@ -44,7 +47,7 @@ function MyNavbar() {
             style={{ width: "400px" }}
           >
             <Nav.Link
-              href="/"
+              href="/RecordShop.reactTeam"
               className="font-weight-bolder"
               style={{ fontSize: "1.2rem" }}
             >
