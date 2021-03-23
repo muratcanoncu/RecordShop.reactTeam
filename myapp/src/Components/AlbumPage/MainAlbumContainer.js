@@ -8,8 +8,8 @@ import { Form, FormControl } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
-  faCoffee,
-  faDesktop,
+  // faCoffee,
+  // faDesktop,
   faShoppingCart,
 } from "@fortawesome/free-solid-svg-icons";
 function MainAlbumContainer() {
@@ -47,7 +47,7 @@ function MainAlbumContainer() {
       <div className="myCarousel d-flex flex-wrap justify-content-center">
         {context.myStateData.albums
           .filter((values) => {
-            if (searchTerm == "") {
+            if (searchTerm === "") {
               return values;
             } else if (
               values.title

@@ -1,15 +1,15 @@
-import { useContext } from "react";
-import { Link } from "react-router-dom";
-import UserContext from "../../ContextFolder/Context";
+// import { useContext } from "react";
+// import { Link } from "react-router-dom";
+// import UserContext from "../../ContextFolder/Context";
 
 import Music from "../../ContextFolder/Songs";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+// import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 function ThumbnailAlbum(props) {
-  const context = useContext(UserContext);
+  // const context = useContext(UserContext);
   // const addToChart = (dispatch) => {
   //   dispatch({
   //     type: "ADD_CHART_THUMB",
@@ -27,7 +27,7 @@ function ThumbnailAlbum(props) {
       >
         <img
           className="mb-2"
-          src={props.image}
+          src={props.image} alt='pic'
           style={{ width: "70%", height: "100%", borderRadius: "5px" }}
         ></img>
       </div>

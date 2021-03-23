@@ -14,7 +14,7 @@ function Payment() {
         style={{ width: "70%" }}
       >
         <div>
-          {context.myStateData.chart.length == 0 ? null : (
+          {context.myStateData.chart.length === 0 ? null : (
             <h1>Items:{context.myStateData.chart.length}</h1>
           )}
           {context.myStateData.chart.map((item, index) => {
@@ -37,7 +37,7 @@ function Payment() {
             );
           })}
         </div>
-        {context.myStateData.chart.length == 0 ? (
+        {context.myStateData.chart.length === 0 ? (
           <h1 className="mx-auto my-auto" style={{ height: "20vh" }}>
             Your box is empty
           </h1>

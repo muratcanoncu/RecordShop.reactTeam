@@ -8,7 +8,7 @@ const AlbumTemplateHero = (props) => {
     genre,
     price,
     image,
-    trackList,
+    // trackList,
   } = props.albumData;
   return (
     <Row className="m-3 pb-4" style={{ lineHeight: "1" }}>

@@ -1,5 +1,5 @@
 import React, { useReducer, useEffect, createContext } from "react";
-import { withRouter } from "react-router";
+// import { withRouter } from "react-router";
 import { Albums } from "./AlbumsObject";
 import { CarouselAlbums } from "./CarouselAlbums";
 import { Chart } from "./ChartData";
@@ -47,7 +47,7 @@ const reducer = (state, action) => {
       };
     case "ADD_CHART_THUMB":
       const addAlbumIndex = state.albums.findIndex((album) => {
-        return album.id == action.payload;
+        return album.id === action.payload;
       });
       let addAlbumItem = state.albums[addAlbumIndex];
 
@@ -56,10 +56,10 @@ const reducer = (state, action) => {
           ...state,
           chart: [...state.chart, { ...addAlbumItem, id: state.chart.length }],
         };
-      }
+      } break;
     case "ADD_CHART_CAROUSEL":
       let addCarouselIndex = state.carouselAlbums.findIndex((album) => {
-        return album.id == action.payload;
+        return album.id === action.payload;
       });
 
       let addAlbumItemCarousel = state.carouselAlbums[addCarouselIndex];
@@ -71,7 +71,7 @@ const reducer = (state, action) => {
             { ...addAlbumItemCarousel, id: state.chart.length },
           ],
         };
-      }
+      }break;
 
     case "LOGOUT":
       return {

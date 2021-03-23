@@ -6,8 +6,8 @@ import UserContext from "../../ContextFolder/Context";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
-  faCoffee,
-  faDesktop,
+  // faCoffee,
+  // faDesktop,
   faShoppingCart,
 } from "@fortawesome/free-solid-svg-icons";
 
