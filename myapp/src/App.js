@@ -20,7 +20,7 @@ function App() {
   const context = useContext(UserContext);
   const [darkMode, setDarkMode] = useState(false);
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className={darkMode ? "dark-mode" : "light-mode"}>
         <Navbar />
         <div className=" switch-checkbox">
@@ -31,7 +31,7 @@ function App() {
         </div>
 
         <Switch>
-          <Route path="/RecordShop.reactTeam" exact>
+          <Route path="/" exact>
             <Carousel />
             {context.myStateData.popUp ? <PopUp></PopUp> : null}
             <MainAlbumContainer />
