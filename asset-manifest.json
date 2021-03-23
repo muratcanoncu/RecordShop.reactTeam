@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/RecordShop.reactTeam/static/css/main.b0bfe35f.chunk.css",
-    "main.js": "/RecordShop.reactTeam/static/js/main.09de052d.chunk.js",
-    "main.js.map": "/RecordShop.reactTeam/static/js/main.09de052d.chunk.js.map",
+    "main.js": "/RecordShop.reactTeam/static/js/main.b812fe2f.chunk.js",
+    "main.js.map": "/RecordShop.reactTeam/static/js/main.b812fe2f.chunk.js.map",
     "runtime-main.js": "/RecordShop.reactTeam/static/js/runtime-main.e1caedf6.js",
     "runtime-main.js.map": "/RecordShop.reactTeam/static/js/runtime-main.e1caedf6.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/RecordShop.reactTeam/static/css/2.4c97ca4f.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.4c97ca4f.chunk.css.map": "/RecordShop.reactTeam/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.b0bfe35f.chunk.css.map": "/RecordShop.reactTeam/static/css/main.b0bfe35f.chunk.css.map",
     "static/js/2.7f696571.chunk.js.LICENSE.txt": "/RecordShop.reactTeam/static/js/2.7f696571.chunk.js.LICENSE.txt",
-    "static/js/main.09de052d.chunk.js.LICENSE.txt": "/RecordShop.reactTeam/static/js/main.09de052d.chunk.js.LICENSE.txt",
+    "static/js/main.b812fe2f.chunk.js.LICENSE.txt": "/RecordShop.reactTeam/static/js/main.b812fe2f.chunk.js.LICENSE.txt",
     "static/media/1969_Led_Zeppelin.90d6cece.jpg": "/RecordShop.reactTeam/static/media/1969_Led_Zeppelin.90d6cece.jpg",
     "static/media/AbbeyRoad.741ce89c.jpg": "/RecordShop.reactTeam/static/media/AbbeyRoad.741ce89c.jpg",
     "static/media/Achtung_Baby.34361461.jpg": "/RecordShop.reactTeam/static/media/Achtung_Baby.34361461.jpg",
@@ -50,6 +50,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.7f696571.chunk.js",
     "static/css/main.b0bfe35f.chunk.css",
-    "static/js/main.09de052d.chunk.js"
+    "static/js/main.b812fe2f.chunk.js"
   ]
 }
